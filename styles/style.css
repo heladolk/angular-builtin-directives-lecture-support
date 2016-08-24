@@ -21,3 +21,15 @@
 .hidden {
   display: none;
 }
+
+.first {
+    background: red;
+}
+
+.second {
+    background: green;
+}
+
+.third {
+    background: blue;
+}

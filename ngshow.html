@@ -12,12 +12,8 @@
 
       <h1>ng-show and ng-hide</h1>
       <div class="container">
-        <div class="box" ng-show="show">
-            <h2>Show me using ng-show</h2>
-        </div>
-        <div class="box" ng-hide="show">
-            <h2>Hide me using ng-hide</h2>
-        </div>
+        <div class="box" ng-show="view.show"><h2>Show me using ng-show</h2></div>
+        <div class="box" ng-hide="view.show"><h2>Hide me using ng-hide</h2></div>
         <button ng-click="toggle()">Toggle</button>
       </div>
     </div>
